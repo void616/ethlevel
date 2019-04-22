@@ -1,0 +1,7 @@
+FROM golang:1.12-alpine
+
+RUN apk update
+RUN apk add ca-certificates git gcc g++ libc-dev
+
+RUN mkdir /app
+WORKDIR /app
