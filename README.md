@@ -25,6 +25,9 @@ docker run -d \
   --addr=my_address:0x0000000000000000000000000000000000000000
 ```
 
+
+Done. Grab your metrics on `http://localhost:2112/metrics`
+
 ## Args
 `go run main.go -help`
 ```
